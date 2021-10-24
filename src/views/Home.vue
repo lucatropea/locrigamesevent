@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import Borders from '../components/Borders.vue'
-import Navigation from '../components/Navigation.vue'
-import Event from '../components/Event.vue'
+  import Borders from '../components/Borders.vue'
+  import Navigation from '../components/Navigation.vue'
+  import Event from '../components/Event.vue'
 
-export default {
-  components: {
-    Borders,
-    Navigation,
-    Event
-  },
-  name: 'Home'
-}
+  export default {
+    components: {
+      Borders,
+      Navigation,
+      Event
+    },
+    name: 'Home'
+  }
 </script>
